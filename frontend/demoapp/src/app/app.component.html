@@ -1,0 +1,17 @@
+<button type="button" (click)="fileInput.click()">
+  Choose File
+</button>
+<input
+  hidden
+  #fileInput
+  type="file"
+  id="file"
+  (change)="setFilename(fileInput.files)"
+/>
+<label>{{ filename }}</label>
+<br />
+<button type="button" (click)="save(fileInput.files)">
+  Save
+</button>
+<br />
+<img [src]="imageSource" />
