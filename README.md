@@ -1,7 +1,3 @@
-# 
-
-
-
 <h1 align="center">Angular ASP.NET Core Azure Blob Storage 👋</h1>
 <p>
   <a href="https://twitter.com/FabianGosebrink">
